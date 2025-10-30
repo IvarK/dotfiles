@@ -11,3 +11,6 @@ for d in ~/dotfiles/*; do
   echo "Linking $src to $target"
   ln -sf "$src" "$target"
 done
+
+ln -sf ~/dotfiles/.zshrc ~/.zshrc
+ln -sf ~/dotfiles/.p10k.zsh ~/.p10k.zsh
