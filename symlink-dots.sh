@@ -14,3 +14,5 @@ done
 
 ln -sf ~/dotfiles/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/.p10k.zsh ~/.p10k.zsh
+
+# TODO: ask user whether to symlink home or work configs, and run the appropriate script in hypr/
