@@ -27,3 +27,6 @@ kitty.target = '~/.config/kitty/wallust-colors.conf'
 
 waybar.template = 'colors-waybar.css'
 waybar.target = '~/.config/waybar/wallust-colors.css'
+
+rofi.template = 'colors-rofi.rasi'
+rofi.target = '~/.config/rofi/wallust-colors.rasi'

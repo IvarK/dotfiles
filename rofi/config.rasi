@@ -10,7 +10,7 @@ configuration {
     display-window: "Windows:";
 }
 
-@theme "tokyo"
+@theme "wallust-colors"
 
 * {
     font: "Iosevka Nerd Font 12";
@@ -50,12 +50,12 @@ inputbar {
 }
 
 prompt {
-    text-color: @blue;
+    text-color: @c11;
 }
 
 entry {
     placeholder:        "Search";
-    placeholder-color:  @cyan;
+    placeholder-color:  @c9;
 }
 
 message {
