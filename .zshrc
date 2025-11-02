@@ -36,6 +36,7 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
 fi
  
 alias yayy="yes | yay"
+alias torrent=alias torrent="node --env-file=$HOME/projects/yarr/.env $HOME/projects/yarr/cli/index.js"
 
 dot() {
   code "dotfiles/$1"
