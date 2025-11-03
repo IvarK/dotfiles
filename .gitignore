@@ -1,1 +1,7 @@
 wallust-*
+
+# these are symlinked
+hypr/configs/monitors.conf
+hypr/configs/workspaces.conf
+hypr/configs/other.conf
+hypr/hypridle.conf

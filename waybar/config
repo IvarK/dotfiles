@@ -30,7 +30,6 @@
 	],
 "modules-center": [
 	"clock#forest",
-	"hyprland/window"
 	],
 "modules-right": [
 	"cpu#forest",
@@ -45,12 +44,6 @@
 	"custom/swaync",
 	],
 
-// Additional / Edited Waybar Modules //
-"custom/arch": {
-      "format":" ",
-      "tooltip": false,
-      "on-click": "rofi -show drun"
-},
 "clock#forest": {
       "format": "{:%A %d.%m.%Y - %H:%M}",
       "tooltip-format": "<span color='#D3C6AA' size='larger'>{:%Y %B}</span>\n<tt>{calendar}</tt>",
