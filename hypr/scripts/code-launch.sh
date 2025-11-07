@@ -9,6 +9,7 @@ preset=(
 
 # Dynamic parent folders
 parents=(
+  "$HOME/work"
   "$HOME/projects"
 )
 
@@ -19,7 +20,7 @@ for parent in "${parents[@]}"; do
 done
 
 # Combine preset and dynamic, remove duplicates
-choices=($(printf "%s\n" "${preset[@]}" "${dynamic[@]}" | sort -u))
+choices=($(printf "%s\n" "${dynamic[@]}" "${preset[@]}" | sort -u))
 
 # Show rofi menu
 selection=$(printf "%s\n" "${choices[@]}" | rofi -dmenu -p "Open in VS Code")
