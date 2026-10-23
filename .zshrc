@@ -48,3 +48,6 @@ dot() {
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source /usr/share/nvm/init-nvm.sh
+
+# bun completions
+[ -s "/home/ivar/.bun/_bun" ] && source "/home/ivar/.bun/_bun"
