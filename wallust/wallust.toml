@@ -19,8 +19,12 @@ check_contrast = true
 # target: ABSOLUTE path in which to place a file with generated templated values.
 # ¡ If either one is a directory, then both SHOULD be one. !
 # zathura = { template = 'zathura', target = '~/.config/zathura/zathurarc' }
-hypr.template = 'colors-hypr.conf'
-hypr.target = '~/.config/hypr/wallust/wallust-hyprland.conf'
+hypr.template = 'colors-hypr.lua'
+hypr.target = '~/.config/hypr/wallust/wallust-hyprland.lua'
+
+# Hyprlock still uses Hyprlang and shares the same generated palette.
+hyprlock.template = 'colors-hypr.conf'
+hyprlock.target = '~/.config/hypr/wallust/wallust-hyprland.conf'
 
 kitty.template = 'colors-kitty.conf'
 kitty.target = '~/.config/kitty/wallust-colors.conf'

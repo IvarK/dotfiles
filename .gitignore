@@ -1,7 +1,7 @@
 wallust-*
 
 # these are symlinked
-hypr/configs/monitors.conf
-hypr/configs/workspaces.conf
-hypr/configs/other.conf
+hypr/configs/monitors.lua
+hypr/configs/workspaces.lua
+hypr/configs/other.lua
 hypr/hypridle.conf
